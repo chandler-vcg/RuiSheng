@@ -1,0 +1,40 @@
+name: Question
+description: 提出一个问题
+title: "[Question] "
+labels: ["question"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## ? 问题咨询
+
+        请描述您的问题。
+
+  - type: textarea
+    id: question-description
+    attributes:
+      label: 问题描述
+      placeholder: 请详细描述您的问题...
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: 背景信息
+      description: 您在什么场景下遇到这个问题？
+      placeholder: 描述背景...
+
+  - type: input
+    id: environment
+    attributes:
+      label: 环境信息
+      placeholder: 操作系统、Python版本、Node.js版本等
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 相关日志或截图
+      description: 如果有相关日志或截图，请提供
+      placeholder: 粘贴日志或描述截图...

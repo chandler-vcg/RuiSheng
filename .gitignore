@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (ruisheng2025)
+node_modules/
+.unpackage/
+*.log
+
+# Model weights
+*.pth
+*.pt
+*.onnx
+*.ckpt
+
+# Logs and outputs
+logs/
+output/
+*.wav
+*.mp3
+*.mp4
+*.avi
+*.mov
+
+# Temporary files
+TEMP/
+tmp/
+*.tmp
+.cache/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# UVR5 models
+uvr5_weights/
+denoise-model/
+
+# ASR models
+asr_models/
+
+# Pretrained models
+pretrained_models/
+
+# Trained weights
+GPT_weights/
+SoVITS_weights/
+GPT_weights_v2/
+SoVITS_weights_v2/
