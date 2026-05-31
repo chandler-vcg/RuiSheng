@@ -1,7 +1,7 @@
 """
 # api.py usage
 
-` python api.py -dr "123.wav" -dt "一二三。" -dl "zh" `
+` python api.py -dr "123.wav" -dt "一二三。" -dl "zh" ` 
 
 ## 执行参数:
 
